@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dianxinos.demo"
+    package="com.doex.demo"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name="com.dianxinos.demo.GuiderActivity"
+            android:name="com.doex.demo.GuiderActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,11 +30,11 @@
         </activity>
         <activity android:name=".fragment.FragmentInstance" >
         </activity>
-        <activity android:name="com.dianxinos.demo.FragmentPager" >
+        <activity android:name="com.doex.demo.FragmentPager" >
         </activity>
-        <activity android:name="com.dianxinos.demo.guide.GuidePager" >
+        <activity android:name="com.doex.demo.guide.GuidePager" >
         </activity>
-        <activity android:name="com.dianxinos.demo.activity.MenuAct" >
+        <activity android:name="com.doex.demo.activity.MenuAct" >
         </activity>
         <activity android:name="org.achartengine.GraphicalActivity" />
     </application>
