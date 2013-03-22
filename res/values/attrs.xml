@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <declare-styleable name="BintreeLayout">
+        <attr name="orientation" />
+    </declare-styleable>
+    <declare-styleable name="BintreeLayout_Layout">
+        <attr name="align_left" format="reference" />
+        <attr name="align_right" format="reference" />
+        <attr name="parent" format="reference" />
+        <attr name="frist_layer" format="boolean" />
+        <attr name="second_layer" format="boolean" />
+        <attr name="third_layer" format="boolean" />
+    </declare-styleable>
+    <!-- Standard orientation constant. -->
+    <attr name="orientation">
+
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0" />
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1" />
+    </attr>
+
+</resources>

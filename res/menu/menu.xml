@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_launcher"
+        android:title="Add">
+    </item>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_launcher"
+        android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_launcher"
+        android:title="Home">
+    </item>
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/ic_launcher"
+        android:title="Help">
+    </item>
+
+</menu>
