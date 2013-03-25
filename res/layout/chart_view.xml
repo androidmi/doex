@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="line_chart" />
+
+    <Button
+        android:id="@+id/multiple_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiple_chart" />
+    <Button
+        android:id="@+id/cust_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cust_chart" />
+
+</LinearLayout>

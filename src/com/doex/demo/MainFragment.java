@@ -13,7 +13,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
 import com.doex.demo.activity.MenuAct;
-import com.doex.demo.chart.MultipleTemperatureChart;
+import com.doex.demo.chart.ChartActivity;
 import com.doex.demo.database.DatabaseFragment;
 import com.doex.demo.fragment.FragmentInstance;
 import com.doex.demo.guide.GuidePager;
@@ -93,7 +93,7 @@ public class MainFragment extends Fragment implements OnClickListener {
                 startActivity(in);
                 break;
             case R.id.chart:
-                startActivity(new MultipleTemperatureChart().execute(getActivity()));
+                startActivity(new Intent(getActivity(), ChartActivity.class));
                 break;
         }
     }

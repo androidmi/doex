@@ -5,21 +5,15 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/add"
-        android:layout_width="wrap_content"
+        android:id="@+id/test_load_performance"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="add" />
+        android:text="测试读取性能" />
 
     <Button
-        android:id="@+id/delete"
+        android:id="@+id/test_insert_performance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="测试批量插入性能" />
 
 </LinearLayout>

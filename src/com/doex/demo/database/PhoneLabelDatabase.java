@@ -11,11 +11,16 @@ import android.provider.BaseColumns;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.doex.demo.database.model.LabelModel;
+import com.doex.demo.database.model.PhoneLabelMappingModel;
+import com.doex.demo.database.model.PhoneLabelModel;
 import com.doex.demo.utils.DbUtils;
 import com.doex.demo.utils.DbUtils.CursorProvider;
 import com.doex.demo.utils.DbUtils.DbCallable;
 
 import org.json.JSONArray;
+
+import java.util.ArrayList;
 
 public class PhoneLabelDatabase extends SQLiteOpenHelper {
 
@@ -107,7 +112,7 @@ public class PhoneLabelDatabase extends SQLiteOpenHelper {
         return DbUtils.dbCall(phoneCallable, phoneCursorProvider);
     }
 
-    static int count = 1;
+    static int count = 1800000;
 
     public void insert(JSONArray phoneLabelList)
             throws Exception {
@@ -123,6 +128,38 @@ public class PhoneLabelDatabase extends SQLiteOpenHelper {
             for (int i = 0; i < phoneLabelList.length(); i++) {
                 JSONArray array = phoneLabelList.getJSONArray(i);
                 PhoneLabelMappingModel model = PhoneLabelMappingModel.fromJson(array);
+                ContentValues values = new ContentValues();
+                // values.put(NUMBER, model.getNumber());
+                values.put(NUMBER, count++);
+                values.put(LABEL, model.getLabel());
+                values.put(COUNT, model.getCount());
+                db.insertWithOnConflict(TAG_TABLE, null, values,
+                        SQLiteDatabase.CONFLICT_REPLACE);
+            }
+            db.setTransactionSuccessful();
+            db.endTransaction();
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception("insert label data exception:" + e.getMessage());
+        } finally {
+            Log.i(TAG, "count:" + count);
+            closeDb(db);
+        }
+    }
+
+    public void insert(ArrayList<LabelModel> phoneLabelList)
+            throws Exception {
+        if (phoneLabelList == null || phoneLabelList.size() == 0) {
+            Log.i(TAG, "list empty");
+            return;
+        }
+        Log.i(TAG, "insert data");
+        SQLiteDatabase db = null;
+        try {
+            db = getWritableDatabase();
+            db.beginTransaction();
+            for (int i = 0; i < phoneLabelList.size(); i++) {
+                LabelModel model = phoneLabelList.get(i);
                 ContentValues values = new ContentValues();
                 // values.put(NUMBER, model.getNumber());
                 values.put(NUMBER, count++);

@@ -1,5 +1,5 @@
 
-package com.doex.demo.database;
+package com.doex.demo.database.model;
 
 import org.json.JSONArray;
 import org.json.JSONException;

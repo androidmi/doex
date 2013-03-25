@@ -7,6 +7,9 @@ import android.text.TextUtils;
 
 import com.google.common.io.Files;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -50,6 +53,15 @@ public class FileUtils {
                     e.printStackTrace();
                 }
             }
+        }
+    }
+
+    public static JSONObject getAssetFileToJSONObject(Context context, String fileName) {
+        try {
+            return new JSONObject(getAssetFileContent(context, fileName));
+        } catch (JSONException e) {
+            e.printStackTrace();
+            return null;
         }
     }
 

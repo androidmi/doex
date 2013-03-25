@@ -1,14 +1,20 @@
 
-package com.doex.demo.database;
+package com.doex.demo.database.model;
 
 import android.database.Cursor;
 import android.provider.BaseColumns;
+import android.util.Config;
 
-public class PhoneLabelModel {
+import com.doex.demo.database.PhoneLabelDatabase;
 
-    private String mLabel;
+import org.json.JSONArray;
+import org.json.JSONException;
+
+public class PhoneLabelMappingModel {
+
     private String mNumber;
     private int mCount;
+    private int mLabelNum;
 
     public static class FromCursorFactory {
         private static final String[] PHONE_LABEL_PROJECTION = {
@@ -29,33 +35,45 @@ public class PhoneLabelModel {
             return res;
         }
 
-        public static PhoneLabelModel create(Cursor cursor) {
+        public static PhoneLabelMappingModel create(Cursor cursor) {
             if (cursor == null) {
                 return null;
             }
-            PhoneLabelModel model = new PhoneLabelModel();
+            PhoneLabelMappingModel model = new PhoneLabelMappingModel();
             model.mNumber = cursor.getString(COLUMN_NUMBER);
-            model.mLabel = cursor.getString(COLUMN_LABEL);
+            model.mLabelNum = cursor.getInt(COLUMN_LABEL);
             model.mCount = cursor.getInt(COLUMN_COUNT);
             return model;
         }
     }
 
-    public static PhoneLabelModel create(Cursor cursor) {
+    public static PhoneLabelMappingModel create(Cursor cursor) {
         return FromCursorFactory.create(cursor);
     }
 
-    private PhoneLabelModel() {
+    public static PhoneLabelMappingModel fromJson(JSONArray array) {
+        if (array == null) {
+            return null;
+        }
+        try {
+            PhoneLabelMappingModel model = new PhoneLabelMappingModel();
+            model.mNumber = array.getString(0);
+            model.mLabelNum = array.getInt(1);
+            model.mCount = array.getInt(2);
+            return model;
+        } catch (JSONException e) {
+            if (Config.DEBUG) {
+                e.printStackTrace();
+            }
+            return null;
+        }
     }
 
-    public PhoneLabelModel(String number, String label, int count) {
-        this.mNumber = number;
-        this.mLabel = label;
-        this.mCount = count;
+    private PhoneLabelMappingModel() {
     }
 
-    public String getLabel() {
-        return mLabel;
+    public int getLabel() {
+        return mLabelNum;
     }
 
     public String getNumber() {

@@ -36,6 +36,8 @@
         </activity>
         <activity android:name="com.doex.demo.activity.MenuAct" >
         </activity>
+        <activity android:name="com.doex.demo.chart.ChartActivity" >
+        </activity>
         <activity android:name="org.achartengine.GraphicalActivity" />
     </application>
 

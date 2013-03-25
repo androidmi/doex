@@ -4,6 +4,7 @@ package com.doex.demo.utils;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.provider.CallLog;
 import android.provider.ContactsContract;
@@ -269,6 +270,12 @@ public class DbUtils {
     public static void closeCursor(Cursor cursor) {
         if (cursor != null) {
             cursor.close();
+        }
+    }
+
+    public static void closeDB(SQLiteDatabase db) {
+        if (db != null) {
+            db.close();
         }
     }
 }
