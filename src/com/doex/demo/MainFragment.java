@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import com.doex.demo.activity.IntentActivity;
 import com.doex.demo.activity.MenuAct;
 import com.doex.demo.chart.ChartActivity;
 import com.doex.demo.database.DatabaseFragment;
@@ -34,7 +35,7 @@ public class MainFragment extends Fragment implements OnClickListener {
         setOnClickListener(R.id.database);
         setOnClickListener(R.id.storage);
         setOnClickListener(R.id.guide);
-        setOnClickListener(R.id.menu);
+        setOnClickListener(R.id.activity);
         setOnClickListener(R.id.image);
         setOnClickListener(R.id.loader);
         setOnClickListener(R.id.data_store);
@@ -62,8 +63,10 @@ public class MainFragment extends Fragment implements OnClickListener {
             case R.id.guide:
                 startActivity(GuidePager.class);
                 break;
-            case R.id.menu:
-                startActivity(MenuAct.class);
+            case R.id.activity:
+                Intent acivity = new Intent(getActivity(), IntentActivity.class);
+                acivity.putExtra(IntentActivity.EXTRA_NAME, "jack");
+                startActivity(acivity);
                 break;
             case R.id.image:
                 startActivity(ImageFragment.class.getName());
