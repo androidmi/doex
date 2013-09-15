@@ -3,4 +3,10 @@
     <string name="app_name">doex</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="antispam_report_mapping">{\'1\':\'欺诈电话\',\'2\':\'保险推销\',\'3\':\'金融理财\'}</string>
+    <string name="progress">have %d %%progress</string>
+    <string name="colorText">我有一个&lt;font color=\"#ff0000\" &gt;红颜色的&lt;/font&gt;皮球</string>
+    <string name="styleText">这是一个&lt;big &gt;大大的字体&lt;/big &gt;</string>
+    
+    
 </resources>

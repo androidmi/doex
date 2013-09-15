@@ -1,0 +1,501 @@
+number      label  index company count 
+10086	 null	 index:0	 company:中国移动客服	 count:0
+4001068003	 骚扰电话	 index:10	 company:null	 count:55250
+075595511	 保险	 index:2	 company:null	 count:2178
+02195512	 保险	 index:2	 company:null	 count:2387
+01095510	 保险	 index:2	 company:null	 count:4849
+4008839258	 骚扰电话	 index:10	 company:null	 count:20589
+10000	 null	 index:0	 company:中国电信客服	 count:0
+4001011982	 骚扰电话	 index:10	 company:null	 count:5387
+02195511	 保险	 index:2	 company:null	 count:2511
+1008611	 null	 index:0	 company:中国移动话费查询	 count:0
+02110108888	 保险	 index:2	 company:null	 count:2904
+02895510	 保险	 index:2	 company:null	 count:2288
+95518	 null	 index:0	 company:中国人民财产保险	 count:0
+10010	 null	 index:0	 company:中国联通崇福营业厅	 count:0
+4008688888	 null	 index:0	 company:太平人寿网上商城客服电话	 count:0
++0196852202	 诈骗	 index:1	 company:null	 count:3310
+666666	 快递	 index:8	 company:null	 count:175
+66666	 骚扰电话	 index:10	 company:null	 count:78
+4008777777	 null	 index:0	 company:中国人寿客服电话	 count:0
+888888	 其他	 index:9	 company:null	 count:181
+10016	 null	 index:0	 company:中国联通陕西分公司电话营销专线	 count:0
+02895550	 保险	 index:2	 company:null	 count:669
+10085	 null	 index:0	 company:移动电话经理	 count:0
+045195105132	 诈骗	 index:1	 company:null	 count:5986
+02195590	 保险	 index:2	 company:null	 count:723
+02138510088	 推销	 index:6	 company:null	 count:418
+4000818818	 推销	 index:6	 company:null	 count:11104
+02795522	 保险	 index:2	 company:null	 count:1576
+02795500	 保险	 index:2	 company:null	 count:603
+10088	 其他	 index:9	 company:null	 count:11
+68888	 骚扰电话	 index:10	 company:null	 count:72
+01095522	 保险	 index:2	 company:null	 count:1102
+04008839258	 骚扰电话	 index:10	 company:null	 count:6941
+055165198880	 骚扰电话	 index:10	 company:null	 count:588
+02138510126	 骚扰电话	 index:10	 company:null	 count:171
++0190852203	 骚扰电话	 index:10	 company:null	 count:372
+02995500	 推销	 index:6	 company:null	 count:4573
+02759233515
++0196852201	 骚扰电话	 index:10	 company:null	 count:1513
+4001060609	 骚扰电话	 index:10	 company:null	 count:103
+02138510106
+04001068003	 骚扰电话	 index:10	 company:null	 count:2286
+688888	 其他	 index:9	 company:null	 count:91
+4009668668	 骚扰电话	 index:10	 company:null	 count:951
+15369227203
+10018	 null	 index:0	 company:客户俱乐部服务热线	 count:0
+02110086	 推销	 index:6	 company:null	 count:380
+95588	 null	 index:0	 company:工商银行万泰支行	 count:0
+02110105555	 推销	 index:6	 company:null	 count:3101
+02110100000	 推销	 index:6	 company:null	 count:213
++01901212	 骚扰电话	 index:10	 company:null	 count:8293
+02120219999	 骚扰电话	 index:10	 company:null	 count:2771
+18771936707
+02010131899	 快递	 index:8	 company:null	 count:1466
+02096585	 快递	 index:8	 company:null	 count:313
+69999	 骚扰电话	 index:10	 company:null	 count:41
+95511	 null	 index:0	 company:中国平安保险	 count:0
+02161136666	 快递	 index:8	 company:null	 count:155
+02010010	 推销	 index:6	 company:null	 count:776
+01095595	 快递	 index:8	 company:null	 count:84
+13800592107
+020116114	 快递	 index:8	 company:null	 count:1008
+04765872777
+02151319888	 保险	 index:2	 company:null	 count:810
+0294008005800	 骚扰电话	 index:10	 company:null	 count:3895
+051295511	 保险	 index:2	 company:null	 count:28
+66888	 骚扰电话	 index:10	 company:null	 count:38
+05356303456	 骚扰电话	 index:10	 company:null	 count:2771
+118114	 null	 index:0	 company:2010年武汉市中考成绩查询热线	 count:0
+04001011982	 骚扰电话	 index:10	 company:null	 count:937
+02195550	 保险	 index:2	 company:null	 count:176
+059138168809	 骚扰电话	 index:10	 company:null	 count:2742
+100003	 快递	 index:8	 company:null	 count:117
+02895568	 推销	 index:6	 company:null	 count:140
+051595510	 骚扰电话	 index:10	 company:null	 count:4330
++17901
+04762891136	 骚扰电话	 index:10	 company:null	 count:161
+01053256293	 骚扰电话	 index:10	 company:null	 count:178
+12530999	 骚扰电话	 index:10	 company:null	 count:1250
+67777	 诈骗	 index:1	 company:null	 count:23
+4008305555	 null	 index:0	 company:德邦物流客服电话	 count:0
+66999	 骚扰电话	 index:10	 company:null	 count:22
+4008000111	 保险	 index:2	 company:null	 count:962
+075510010	 推销	 index:6	 company:null	 count:547
++0190852213	 骚扰电话	 index:10	 company:null	 count:1323
+10011	 null	 index:0	 company:中国联通充值电话	 count:0
+052788105500	 推销	 index:6	 company:null	 count:44
+18402940000	 骚扰电话	 index:10	 company:null	 count:167
+65555	 骚扰电话	 index:10	 company:null	 count:24
+04762891133	 诈骗	 index:1	 company:null	 count:186
+0118114	 推销	 index:6	 company:null	 count:1976
+4008695508	 诈骗	 index:1	 company:null	 count:2090
+075528560888	 其他	 index:9	 company:null	 count:138
+075561555796	 骚扰电话	 index:10	 company:null	 count:216
+04762891135	 骚扰电话	 index:10	 company:null	 count:124
+075529614599	 骚扰电话	 index:10	 company:null	 count:631
+02160437437	 骚扰电话	 index:10	 company:null	 count:456
+4008001008	 null	 index:0	 company:友邦保险	 count:0
+075561115783	 骚扰电话	 index:10	 company:null	 count:348
+075561115786	 骚扰电话	 index:10	 company:null	 count:245
+057423629857	 骚扰电话	 index:10	 company:null	 count:787
+61111	 骚扰电话	 index:10	 company:null	 count:25
+02160437461	 骚扰电话	 index:10	 company:null	 count:426
+02160437485	 骚扰电话	 index:10	 company:null	 count:418
+4008000000	 推销	 index:6	 company:null	 count:473
+057187153588	 推销	 index:6	 company:null	 count:496
+02160437414	 骚扰电话	 index:10	 company:null	 count:433
+668888	 快递	 index:8	 company:null	 count:50
+05552960040
+12590158	 推销	 index:6	 company:null	 count:1406
+05552960041
+075561552500	 骚扰电话	 index:10	 company:null	 count:298
+051210086	 推销	 index:6	 company:null	 count:444
+625175
+02495508	 推销	 index:6	 company:null	 count:393
+666888	 快递	 index:8	 company:null	 count:46
+0125903160	 骚扰电话	 index:10	 company:null	 count:1216
+02195559	 推销	 index:6	 company:null	 count:699
+075533688542	 骚扰电话	 index:10	 company:null	 count:205
+02138130003	 快递	 index:8	 company:null	 count:86
+051588232283	 骚扰电话	 index:10	 company:null	 count:477
+075561555795	 骚扰电话	 index:10	 company:null	 count:205
+057610086	 推销	 index:6	 company:null	 count:299
+01095542	 推销	 index:6	 company:null	 count:16252
+075510016	 推销	 index:6	 company:null	 count:755
+02910109600	 推销	 index:6	 company:null	 count:6042
+4001880588	 推销	 index:6	 company:null	 count:5533
+051285660889	 推销	 index:6	 company:null	 count:592
+10001	 null	 index:0	 company:中国电信自助服务热线	 count:0
+4001111111	 null	 index:0	 company:和谐健康客服电话	 count:0
+075561578989	 骚扰电话	 index:10	 company:null	 count:190
+95522
+4001023882	 骚扰电话	 index:10	 company:null	 count:4669
+075561569801	 诈骗	 index:1	 company:null	 count:1232
+95508	 null	 index:0	 company:广东发展银行	 count:0
+13695235110
+01053256328	 骚扰电话	 index:10	 company:null	 count:305
++0000
+02195508	 推销	 index:6	 company:null	 count:332
+02095508	 推销	 index:6	 company:null	 count:257
+63333	 null	 index:0	 company:家天下房产	 count:0
+04000818818	 骚扰电话	 index:10	 company:null	 count:2000
+4000095535	 骚扰电话	 index:10	 company:null	 count:3822
+075561922843	 骚扰电话	 index:10	 company:null	 count:517
++0195886201	 骚扰电话	 index:10	 company:null	 count:23
+62222	 骚扰电话	 index:10	 company:null	 count:19
+01095568	 推销	 index:6	 company:null	 count:334
+02160846462	 保险	 index:2	 company:null	 count:31
+04008777777	 骚扰电话	 index:10	 company:null	 count:1285
+66688	 推销	 index:6	 company:null	 count:22
+4008005800	 骚扰电话	 index:10	 company:null	 count:1621
+01010016	 推销	 index:6	 company:null	 count:815
+66555	 骚扰电话	 index:10	 company:null	 count:17
+95510	 null	 index:0	 company:阳光保险	 count:0
+15900160803
+02195049	 骚扰电话	 index:10	 company:null	 count:533
+05923016060	 骚扰电话	 index:10	 company:null	 count:203
+059162701209	 骚扰电话	 index:10	 company:null	 count:1219
+66001	 推销	 index:6	 company:null	 count:20
+02131156810
+66111	 骚扰电话	 index:10	 company:null	 count:23
+02161611122	 推销	 index:6	 company:null	 count:319
+01057995999	 推销	 index:6	 company:null	 count:1755
+02195549	 推销	 index:6	 company:null	 count:4708
+66789	 骚扰电话	 index:10	 company:null	 count:17
+66668	 骚扰电话	 index:10	 company:null	 count:18
+02160430115
+02131169999	 推销	 index:6	 company:null	 count:1782
+075536991441	 骚扰电话	 index:10	 company:null	 count:968
+699999	 快递	 index:8	 company:null	 count:23
+66777	 骚扰电话	 index:10	 company:null	 count:17
+051282140510	 骚扰电话	 index:10	 company:null	 count:1185
+02135317012	 推销	 index:6	 company:null	 count:1568
+60000	 诈骗	 index:1	 company:null	 count:12
+61001	 推销	 index:6	 company:null	 count:16
+95500	 null	 index:0	 company:中国太平洋人寿保险股份有限公司文山支公司	 count:0
+669999	 其他	 index:9	 company:null	 count:28
+4001859288	 骚扰电话	 index:10	 company:null	 count:1442
+95590	 null	 index:0	 company:大地财产保险股份有限公司潮州分公司	 count:0
+02028846401	 快递	 index:8	 company:null	 count:58
+4008115226	 诈骗	 index:1	 company:null	 count:3508
+61888	 骚扰电话	 index:10	 company:null	 count:16
+09420143005
+02195500	 推销	 index:6	 company:null	 count:792
+13991911861	 推销	 index:6	 company:null	 count:1399
+0116114	 推销	 index:6	 company:null	 count:1100
+12580	 null	 index:0	 company:客服电话	 count:0
+075533595558	 推销	 index:6	 company:null	 count:453
+66000	 骚扰电话	 index:10	 company:null	 count:19
+666999	 其他	 index:9	 company:null	 count:33
+010016	 骚扰电话	 index:10	 company:null	 count:567
+01068899103	 推销	 index:6	 company:null	 count:2597
+4001001895	 房屋中介	 index:4	 company:null	 count:2929
+02034197526	 推销	 index:6	 company:null	 count:470
++989364112443
+66333	 骚扰电话	 index:10	 company:null	 count:14
+4001119999	 推销	 index:6	 company:null	 count:1781
+075533395558	 推销	 index:6	 company:null	 count:299
+075595522	 推销	 index:6	 company:null	 count:2122
+02010131818	 推销	 index:6	 company:null	 count:3904
+02081164580	 骚扰电话	 index:10	 company:null	 count:482
+4000100520	 骚扰电话	 index:10	 company:null	 count:1370
+01053256329	 骚扰电话	 index:10	 company:null	 count:84
+96138	 null	 index:0	 company:饶平县农村信用合作联社高堂信用社	 count:0
+02568093092	 推销	 index:6	 company:null	 count:211
+076910010	 推销	 index:6	 company:null	 count:358
+18511535967
+02120219977	 骚扰电话	 index:10	 company:null	 count:917
+051282140530	 推销	 index:6	 company:null	 count:326
+01011616666	 推销	 index:6	 company:null	 count:5387
+13883356067
+02157803751	 推销	 index:6	 company:null	 count:1969
+051085381919	 快递	 index:8	 company:null	 count:3434
+68001	 骚扰电话	 index:10	 company:null	 count:13
++000196852202	 诈骗	 index:1	 company:null	 count:797
+666777	 快递	 index:8	 company:null	 count:28
+66002	 骚扰电话	 index:10	 company:null	 count:24
+61002	 诈骗	 index:1	 company:null	 count:15
+02095500	 推销	 index:6	 company:null	 count:2143
+02996069	 骚扰电话	 index:10	 company:null	 count:3203
+02110016	 推销	 index:6	 company:null	 count:407
+02131163202	 骚扰电话	 index:10	 company:null	 count:156
+4008468881	 推销	 index:6	 company:null	 count:2823
+4008915002	 骚扰电话	 index:10	 company:null	 count:1920
+01095558	 推销	 index:6	 company:null	 count:287
+04008688888	 保险	 index:2	 company:null	 count:979
+0104008777777	 保险	 index:2	 company:null	 count:602
+667788	 骚扰电话	 index:10	 company:null	 count:22
+118312	 骚扰电话	 index:10	 company:null	 count:651
+66008	 诈骗	 index:1	 company:null	 count:19
+02160390948	 骚扰电话	 index:10	 company:null	 count:162
+4008040010	 骚扰电话	 index:10	 company:null	 count:1714
+05368089999	 快递	 index:8	 company:null	 count:80
+075533688534	 骚扰电话	 index:10	 company:null	 count:521
+02081169502	 骚扰电话	 index:10	 company:null	 count:855
+073110016	 推销	 index:6	 company:null	 count:18
+4007285588	 推销	 index:6	 company:null	 count:256
+02151021706	 骚扰电话	 index:10	 company:null	 count:1102
+0214007207888	 推销	 index:6	 company:null	 count:408
+075533320187	 骚扰电话	 index:10	 company:null	 count:149
+02131163196	 骚扰电话	 index:10	 company:null	 count:1114
+075533512084	 骚扰电话	 index:10	 company:null	 count:148
+031595542	 骚扰电话	 index:10	 company:null	 count:164
+01095518	 保险	 index:2	 company:null	 count:92
+66006	 骚扰电话	 index:10	 company:null	 count:11
+4000186321	 骚扰电话	 index:10	 company:null	 count:1319
++989125801813
+02161954018	 推销	 index:6	 company:null	 count:299
++882414411018	 骚扰电话	 index:10	 company:null	 count:58
+073182168800	 推销	 index:6	 company:null	 count:419
+118168	 骚扰电话	 index:10	 company:null	 count:774
+02759233500
+18101095380
+667777	 快递	 index:8	 company:null	 count:15
+075533095511	 推销	 index:6	 company:null	 count:916
+057989185177	 诈骗	 index:1	 company:null	 count:143
+66222	 推销	 index:6	 company:null	 count:15
+057110000	 推销	 index:6	 company:null	 count:304
+02810000	 诈骗	 index:1	 company:null	 count:52
+690001	 其他	 index:9	 company:null	 count:27
+4008268215	 推销	 index:6	 company:null	 count:372
+4009333333	 null	 index:0	 company:艺龙旅行网	 count:0
+60001	 诈骗	 index:1	 company:null	 count:14
++881835311351	 骚扰电话	 index:10	 company:null	 count:78
+66669	 骚扰电话	 index:10	 company:null	 count:20
+66009	 骚扰电话	 index:10	 company:null	 count:9
+02031057523	 骚扰电话	 index:10	 company:null	 count:248
+4001011893	 骚扰电话	 index:10	 company:null	 count:517
+01056228355	 骚扰电话	 index:10	 company:null	 count:200
+02138510077	 推销	 index:6	 company:null	 count:449
+654321	 快递	 index:8	 company:null	 count:21
+02160430113
+66003	 其他	 index:9	 company:null	 count:10
+02195510	 骚扰电话	 index:10	 company:null	 count:593
+61000	 诈骗	 index:1	 company:null	 count:11
+01010086	 推销	 index:6	 company:null	 count:918
+02310010	 诈骗	 index:1	 company:null	 count:121
+02131369393	 骚扰电话	 index:10	 company:null	 count:417
+4008205881	 推销	 index:6	 company:null	 count:704
+666555	 其他	 index:9	 company:null	 count:32
+073110086	 推销	 index:6	 company:null	 count:437
+01053561108	 骚扰电话	 index:10	 company:null	 count:415
+4007207888	 推销	 index:6	 company:null	 count:454
+057185025188	 推销	 index:6	 company:null	 count:194
+69888	 骚扰电话	 index:10	 company:null	 count:10
+05923920520	 骚扰电话	 index:10	 company:null	 count:544
+65888	 推销	 index:6	 company:null	 count:10
+66066	 骚扰电话	 index:10	 company:null	 count:12
+02158772999	 骚扰电话	 index:10	 company:null	 count:164
+4001098003	 骚扰电话	 index:10	 company:null	 count:759
+01053502315	 推销	 index:6	 company:null	 count:892
+02595511	 保险	 index:2	 company:null	 count:82
+18620674772
+68666	 诈骗	 index:1	 company:null	 count:15
+665555	 骚扰电话	 index:10	 company:null	 count:15
+02138695888	 骚扰电话	 index:10	 company:null	 count:156
+02120219921
+02759756200	 推销	 index:6	 company:null	 count:245
+666668	 其他	 index:9	 company:null	 count:27
++0017901	 骚扰电话	 index:10	 company:null	 count:3602
+02038965423	 骚扰电话	 index:10	 company:null	 count:397
+037160127546
+18299260262
+661111	 其他	 index:9	 company:null	 count:17
+68999	 推销	 index:6	 company:null	 count:8
+051095510
+075595555	 金融理财	 index:3	 company:null	 count:7
+075533995558	 推销	 index:6	 company:null	 count:833
+66366	 骚扰电话	 index:10	 company:null	 count:11
+06315711620
+66188	 骚扰电话	 index:10	 company:null	 count:10
+677777	 其他	 index:9	 company:null	 count:16
+04007150053	 骚扰电话	 index:10	 company:null	 count:1341
+02138695533	 骚扰电话	 index:10	 company:null	 count:141
+02510086	 推销	 index:6	 company:null	 count:292
+051210000	 骚扰电话	 index:10	 company:null	 count:169
+04009668668	 骚扰电话	 index:10	 company:null	 count:189
+611111	 其他	 index:9	 company:null	 count:19
+13891921860	 null	 index:0	 company:铁蛋葫芦头泡馍	 count:0
+02126107000	 诈骗	 index:1	 company:null	 count:1050
+61666	 推销	 index:6	 company:null	 count:15
+66005	 骚扰电话	 index:10	 company:null	 count:10
++0001901212	 骚扰电话	 index:10	 company:null	 count:1627
+010118114	 推销	 index:6	 company:null	 count:81
+61008	 诈骗	 index:1	 company:null	 count:11
+02131367145	 骚扰电话	 index:10	 company:null	 count:651
+02034839989	 推销	 index:6	 company:null	 count:767
+4008793020	 推销	 index:6	 company:null	 count:611
+68111	 诈骗	 index:1	 company:null	 count:7
+666111	 诈骗	 index:1	 company:null	 count:17
+05925896333	 推销	 index:6	 company:null	 count:150
+60002	 骚扰电话	 index:10	 company:null	 count:13
+075526613636	 推销	 index:6	 company:null	 count:162
+61006	 推销	 index:6	 company:null	 count:9
+02160527785	 骚扰电话	 index:10	 company:null	 count:236
+01080703600	 骚扰电话	 index:10	 company:null	 count:444
+15034755795
+02566996699	 诈骗	 index:1	 company:null	 count:17
+67888	 骚扰电话	 index:10	 company:null	 count:18
+61777	 骚扰电话	 index:10	 company:null	 count:11
+61999	 诈骗	 index:1	 company:null	 count:8
+96121	 null	 index:0	 company:天气预报查询电话	 count:0
+4008195599	 骚扰电话	 index:10	 company:null	 count:110
++882414411025	 骚扰电话	 index:10	 company:null	 count:89
+66007	 骚扰电话	 index:10	 company:null	 count:10
+4008852552	 诈骗	 index:1	 company:null	 count:1706
+09450001972
+66123	 推销	 index:6	 company:null	 count:16
+690003	 骚扰电话	 index:10	 company:null	 count:24
+690002	 骚扰电话	 index:10	 company:null	 count:20
+66661	 推销	 index:6	 company:null	 count:10
+01058309199	 骚扰电话	 index:10	 company:null	 count:315
+61003	 推销	 index:6	 company:null	 count:9
+4008827266	 骚扰电话	 index:10	 company:null	 count:196
+075595510	 推销	 index:6	 company:null	 count:5248
+61010	 骚扰电话	 index:10	 company:null	 count:16
+04006600256	 骚扰电话	 index:10	 company:null	 count:509
+4000131616	 诈骗	 index:1	 company:null	 count:1459
+68899	 其他	 index:9	 company:null	 count:9
+68006	 骚扰电话	 index:10	 company:null	 count:6
+02364095597
+62888	 骚扰电话	 index:10	 company:null	 count:12
+66369	 骚扰电话	 index:10	 company:null	 count:6
+05923016022	 骚扰电话	 index:10	 company:null	 count:68
+11616666	 骚扰电话	 index:10	 company:null	 count:636
+05514008040010	 骚扰电话	 index:10	 company:null	 count:1665
+61005	 其他	 index:9	 company:null	 count:8
+075561555000	 诈骗	 index:1	 company:null	 count:101
+66678	 诈骗	 index:1	 company:null	 count:9
+1183999	 骚扰电话	 index:10	 company:null	 count:404
+661602
+075566610086	 推销	 index:6	 company:null	 count:2691
+63538
+66168	 推销	 index:6	 company:null	 count:9
+660001	 其他	 index:9	 company:null	 count:19
+69666	 推销	 index:6	 company:null	 count:12
+668007	 其他	 index:9	 company:null	 count:5
+66699	 推销	 index:6	 company:null	 count:11
+059110000	 推销	 index:6	 company:null	 count:80
++019082213	 骚扰电话	 index:10	 company:null	 count:65
+10106696	 推销	 index:6	 company:null	 count:854
+69989	 骚扰电话	 index:10	 company:null	 count:3
+075561299222	 诈骗	 index:1	 company:null	 count:472
+65666	 骚扰电话	 index:10	 company:null	 count:12
+15397128107	 骚扰电话	 index:10	 company:null	 count:595
+01010155	 推销	 index:6	 company:null	 count:588
+18928218093
+18005375189
+666000	 其他	 index:9	 company:null	 count:18
+02123094493	 快递	 index:8	 company:null	 count:18
+01056954790	 推销	 index:6	 company:null	 count:419
+02028846411	 骚扰电话	 index:10	 company:null	 count:36
+051282602940	 诈骗	 index:1	 company:null	 count:141
+663333	 其他	 index:9	 company:null	 count:23
+051267041758	 推销	 index:6	 company:null	 count:141
+02133199019	 骚扰电话	 index:10	 company:null	 count:10
+66010	 其他	 index:9	 company:null	 count:7
+66018	 诈骗	 index:1	 company:null	 count:6
+68777	 骚扰电话	 index:10	 company:null	 count:11
+63888	 诈骗	 index:1	 company:null	 count:4
+13800596509	 骚扰电话	 index:10	 company:null	 count:251
+66088	 推销	 index:6	 company:null	 count:10
+02157837712	 骚扰电话	 index:10	 company:null	 count:934
+4001664008	 骚扰电话	 index:10	 company:null	 count:273
+075533987193	 推销	 index:6	 company:null	 count:881
+0017901	 骚扰电话	 index:10	 company:null	 count:3602
+4000031098	 推销	 index:6	 company:null	 count:27901
+07505613698
+67999	 骚扰电话	 index:10	 company:null	 count:7
+073188510086	 推销	 index:6	 company:null	 count:464
+02583500080	 快递	 index:8	 company:null	 count:25
+055110016	 推销	 index:6	 company:null	 count:383
+12590155	 推销	 index:6	 company:null	 count:451
+61009	 推销	 index:6	 company:null	 count:8
+62001	 骚扰电话	 index:10	 company:null	 count:9
+4001130080	 推销	 index:6	 company:null	 count:1217
+68889	 骚扰电话	 index:10	 company:null	 count:7
+01053565888	 骚扰电话	 index:10	 company:null	 count:635
+660008	 快递	 index:8	 company:null	 count:12
+076028128999	 骚扰电话	 index:10	 company:null	 count:245
+66618	 骚扰电话	 index:10	 company:null	 count:7
+666699	 其他	 index:9	 company:null	 count:9
+09423729064
+02066226688	 骚扰电话	 index:10	 company:null	 count:902
+18308787342
+68000	 骚扰电话	 index:10	 company:null	 count:11
+68688	 推销	 index:6	 company:null	 count:11
+02810016	 快递	 index:8	 company:null	 count:29
+051068170203	 骚扰电话	 index:10	 company:null	 count:879
+02160317451	 推销	 index:6	 company:null	 count:24
+051610000	 骚扰电话	 index:10	 company:null	 count:85
+037195522	 推销	 index:6	 company:null	 count:872
+087110016	 骚扰电话	 index:10	 company:null	 count:130
+68008	 推销	 index:6	 company:null	 count:11
+68886	 诈骗	 index:1	 company:null	 count:11
+66788	 骚扰电话	 index:10	 company:null	 count:9
+13768249760
+66020	 推销	 index:6	 company:null	 count:7
+02124099090	 骚扰电话	 index:10	 company:null	 count:585
+01088770088	 推销	 index:6	 company:null	 count:1088
+02151069999	 快递	 index:8	 company:null	 count:17
+66166	 骚扰电话	 index:10	 company:null	 count:8
+66667	 骚扰电话	 index:10	 company:null	 count:8
+0201015696	 骚扰电话	 index:10	 company:null	 count:623
+075582380730	 推销	 index:6	 company:null	 count:114
+4001678288	 骚扰电话	 index:10	 company:null	 count:94
+66288	 诈骗	 index:1	 company:null	 count:11
+62777	 推销	 index:6	 company:null	 count:7
+15010154987
+02138690588	 推销	 index:6	 company:null	 count:78
++60176154023
+02161136668	 推销	 index:6	 company:null	 count:387
+61222	 其他	 index:9	 company:null	 count:6
+66011	 诈骗	 index:1	 company:null	 count:11
+655555	 快递	 index:8	 company:null	 count:21
+64444	 骚扰电话	 index:10	 company:null	 count:15
+15510046942
+01053562116	 推销	 index:6	 company:null	 count:318
+15216765207
+69000	 诈骗	 index:1	 company:null	 count:5
+69919	 推销	 index:6	 company:null	 count:4
+660000	 其他	 index:9	 company:null	 count:18
+68002	 骚扰电话	 index:10	 company:null	 count:11
+4001540017	 诈骗	 index:1	 company:null	 count:318
+100008	 快递	 index:8	 company:null	 count:46
+64520
+04009905555	 骚扰电话	 index:10	 company:null	 count:653
+01088770055	 推销	 index:6	 company:null	 count:1180
+62009	 骚扰电话	 index:10	 company:null	 count:4
+666688	 骚扰电话	 index:10	 company:null	 count:14
+13471980485
+66588	 诈骗	 index:1	 company:null	 count:10
+07503421051	 骚扰电话	 index:10	 company:null	 count:298
+68686	 推销	 index:6	 company:null	 count:5
+4008210998	 推销	 index:6	 company:null	 count:306
+666669	 其他	 index:9	 company:null	 count:19
+4008899315	 null	 index:0	 company:华凌客服	 count:0
+62002	 骚扰电话	 index:10	 company:null	 count:9
+66886	 骚扰电话	 index:10	 company:null	 count:12
+622222	 其他	 index:9	 company:null	 count:17
+61555	 骚扰电话	 index:10	 company:null	 count:13
+15887889460
+4008689689	 骚扰电话	 index:10	 company:null	 count:55
+02126063795	 骚扰电话	 index:10	 company:null	 count:893
+62270	 骚扰电话	 index:10	 company:null	 count:3
+21542012	 推销	 index:6	 company:null	 count:251
+02781615555	 推销	 index:6	 company:null	 count:50
+68009	 诈骗	 index:1	 company:null	 count:6
+076989241004	 骚扰电话	 index:10	 company:null	 count:9
+66677	 骚扰电话	 index:10	 company:null	 count:17
+02081164604	 骚扰电话	 index:10	 company:null	 count:958
+4001659288	 骚扰电话	 index:10	 company:null	 count:103
+624748
+02495510	 骚扰电话	 index:10	 company:null	 count:257
+65999	 诈骗	 index:1	 company:null	 count:9
+4008268217	 推销	 index:6	 company:null	 count:356
+671639
+66566	 诈骗	 index:1	 company:null	 count:7
+67890	 推销	 index:6	 company:null	 count:7
+65777	 骚扰电话	 index:10	 company:null	 count:6
