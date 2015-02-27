@@ -2,9 +2,12 @@
 package com.doex.demo.database;
 
 import android.app.Activity;
+import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -45,12 +48,34 @@ public class DatabaseFragment extends Fragment implements OnClickListener {
                 new loadTask().execute();
                 break;
             case R.id.test_load_performance:
-
+                String selection = ContactsContract.CommonDataKinds.Phone.NUMBER + "=?";
+                String[] selectionArgs = {
+                        "1144555336"
+                };
+                Cursor cursor = getActivity().getContentResolver().query(
+                        ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+                        PEOPLE_PROJECTION, selection, selectionArgs, null);
+                if (cursor == null || !cursor.moveToFirst()) {
+                    return;
+                }
+                do {
+                    long id = cursor.getLong(0);
+                    String number = cursor.getString(1);
+                    String name = cursor.getString(2);
+                    Log.i(TAG, id + "-" + number + "-" + name);
+                } while (cursor.moveToNext());
                 break;
             default:
                 break;
         }
     }
+
+    private static final String[] PEOPLE_PROJECTION = new String[] {
+            ContactsContract.CommonDataKinds.Phone.CONTACT_ID,
+            ContactsContract.CommonDataKinds.Phone.NUMBER,
+            // ContactsContract.CommonDataKinds.Email.DATA,
+            ContactsContract.Contacts.DISPLAY_NAME
+    };
 
     class loadTask extends AsyncTask<Void, Void, Boolean> {
 

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn"
+        android:background="#cdcdcd"
+        android:padding="5dp" >
+
+        <com.doex.demo.animation.AnimationLayoutView
+            android:id="@+id/anmi"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:res="@drawable/ic_antispam_call"
+            app:word="+99" >
+        </com.doex.demo.animation.AnimationLayoutView>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="fill_parent"
+            android:background="#ff0000" />
+
+        <com.doex.demo.animation.AnimationLayoutView
+            android:id="@+id/anmi2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:res="@drawable/ic_antispam_call"
+            app:word="+99" >
+        </com.doex.demo.animation.AnimationLayoutView>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="fill_parent"
+            android:background="#ff0000" />
+
+        <com.doex.demo.animation.AnimationLayoutView
+            android:id="@+id/anmi3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:res="@drawable/ic_antispam_call"
+            app:word="+99" >
+        </com.doex.demo.animation.AnimationLayoutView>
+    </LinearLayout>
+
+</RelativeLayout>

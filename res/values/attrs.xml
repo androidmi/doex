@@ -37,4 +37,9 @@
         <enum name="vertical" value="1" />
     </attr>
 
+    <declare-styleable name="spam_icon">
+        <attr name="res" format="reference" />
+        <attr name="word" format="string" />
+    </declare-styleable>
+
 </resources>

@@ -1,6 +1,7 @@
 
 package com.doex.demo.utils;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -10,12 +11,15 @@ import android.provider.CallLog;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.PhoneLookup;
 
+import com.doex.demo.sms.SmsMessage;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DbUtils {
+    private static final String TAG = "DbUtils";
 
     public static interface CursorProvider {
         Cursor getCursor() throws SQLException;
@@ -233,6 +237,45 @@ public class DbUtils {
         return dbCall(callCallable, callCursorProvider);
     }
 
+    public static boolean isMissedCall(final Context context, final String number) {
+        final CursorProvider callCursorProvider = new CursorProvider() {
+
+            @Override
+            public Cursor getCursor() throws SQLException {
+                final Uri uri = CallLog.Calls.CONTENT_URI;
+                final String[] projection = {
+                        CallLog.Calls.NUMBER, CallLog.Calls.TYPE
+                };
+
+                final String selection = null;
+                final String[] selectionArgs = null;
+                final String sortOrder = CallLog.Calls._ID + " desc LIMIT 3";
+                return context.getContentResolver().query(uri, projection, selection,
+                        selectionArgs, sortOrder);
+            }
+
+        };
+        final DbCallable<Boolean> callCallable = new DbCallable<Boolean>() {
+
+            @Override
+            public Boolean call(Cursor cursor) throws SQLException {
+                if (cursor != null && cursor.moveToFirst()) {
+                    do {
+                        String missCallNumber = cursor.getString(0);
+                        int type = cursor.getInt(1);
+                        if (missCallNumber.equals(number) && type == CallLog.Calls.MISSED_TYPE) {
+                            return true;
+                        }
+                    } while (cursor.moveToNext());
+                }
+                return false;
+            }
+
+        };
+        Boolean isMissCall = dbCall(callCallable, callCursorProvider);
+        return isMissCall != null ? isMissCall : false;
+    }
+
     public static ArrayList<Long> getFavContactIds(final Context context, final int limitSize) {
         final CursorProvider callCursorProvider = new CursorProvider() {
 
@@ -265,6 +308,53 @@ public class DbUtils {
             }
         };
         return dbCall(callCallable, callCursorProvider);
+    }
+
+    public static final Uri SMS_CONTENT_URI = Uri.parse("content://sms");
+
+    /**
+     * The type of the message
+     * <P>
+     * Type: INTEGER
+     * </P>
+     */
+    public static final String TYPE = "type";
+
+    public static final int MESSAGE_TYPE_ALL = 0;
+    public static final int MESSAGE_TYPE_INBOX = 1;
+    public static final int MESSAGE_TYPE_SENT = 2;
+
+    public static final ArrayList<SmsMessage> getSmsList(final ContentResolver cr) {
+        CursorProvider cursorProvider = new CursorProvider() {
+
+            @Override
+            public Cursor getCursor() throws SQLException {
+                String selection = "type in (1,2)";
+                String[] selectionArgs = null;
+
+                return cr.query(SMS_CONTENT_URI,
+                        SmsMessage.FromCursorFactory.getProjection(),
+                        selection,
+                        selectionArgs, "date DESC");
+            }
+        };
+        DbCallable<ArrayList<SmsMessage>> callable = new DbCallable<ArrayList<SmsMessage>>() {
+
+            @Override
+            public ArrayList<SmsMessage> call(Cursor cursor) throws SQLException {
+                ArrayList<SmsMessage> smsList = null;
+                if (cursor != null && cursor.moveToFirst()) {
+                    smsList = new ArrayList<SmsMessage>();
+                    do {
+                        SmsMessage sms = SmsMessage.create(cursor);
+                        smsList.add(sms);
+                    } while (cursor.moveToNext());
+                }
+                return smsList;
+
+            }
+        };
+        return dbCall(callable, cursorProvider);
     }
 
     public static void closeCursor(Cursor cursor) {

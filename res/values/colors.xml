@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="select">#333333</color>
-    <color name="normal">#ff00cc</color>
+    <color name="select">#000000</color>
+    <color name="normal">#fdcdff</color>
+    <color name="text1">#fdcdff</color>
+
+    <color name="bg">#ff00ff</color>
+    <color name="textColor">#00ff00</color>
 
 </resources>

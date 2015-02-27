@@ -69,7 +69,7 @@ public class XYSeriesRenderer extends SimpleSeriesRenderer {
    * 
    * @param fill the fill below line flag value
    * 
-   * @deprecated Use {@link #setFillOutsideLine(FillOutsideLine)} instead.
+   * @deprecated Use {@link #setFillOutsideLine(org.achartengine.renderer.XYSeriesRenderer.FillOutsideLine)} instead.
    */
   @Deprecated
   public void setFillBelowLine(boolean fill) {

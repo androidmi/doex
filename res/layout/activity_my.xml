@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.doex.demo.view.ViewActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="dddddddddddddddddd"
+        android:textColor="@color/text_color"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:background="@drawable/btn_bkg"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView"
+        android:text="btn"
+        android:background="@drawable/btn_bkg"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+</LinearLayout>

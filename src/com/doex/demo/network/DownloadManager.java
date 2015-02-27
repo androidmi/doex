@@ -3,10 +3,16 @@ package com.doex.demo.network;
 
 import android.os.AsyncTask;
 import android.os.Environment;
+import android.util.Log;
 
 import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.util.EntityUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -15,7 +21,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class DownloadManager {
-
+    private static final String TAG = "DownloadManager";
     public static void download() {
         new DownloadTask().execute();
     }
@@ -72,4 +78,37 @@ public class DownloadManager {
             }
         }
     }
+
+    class thread extends Thread {
+
+        @Override
+        public void run() {
+
+            DefaultHttpClient mHttpClient = new DefaultHttpClient(createHttpParams());
+            String url = "http://t1.tira.cn:8125/dxbb/report/query/queryByPhone?phone=02195511";
+            HttpGet httpGet = new HttpGet(url);
+            try {
+                HttpResponse response = mHttpClient.execute(httpGet);
+                String result = EntityUtils.toString(response.getEntity(), "UTF-8");
+                Log.i(TAG, "result:" + result);
+            } catch (ClientProtocolException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    };
+
+    private static final int TIMEOUT = 1;
+
+    private final HttpParams createHttpParams() {
+        final HttpParams params = new BasicHttpParams();
+
+        HttpConnectionParams.setConnectionTimeout(params, TIMEOUT * 1000);
+        HttpConnectionParams.setSoTimeout(params, TIMEOUT * 1000);
+        HttpConnectionParams.setSocketBufferSize(params, 8192);
+
+        return params;
+    }
+
 }

@@ -796,7 +796,7 @@ public class XYMultipleSeriesRenderer extends DefaultRenderer {
   }
 
   /**
-   * Override {@link DefaultRenderer#setPanEnabled(boolean)} so it can be
+   * Override {@link org.achartengine.renderer.DefaultRenderer#setPanEnabled(boolean)} so it can be
    * delegated to {@link #setPanEnabled(boolean, boolean)}.
    */
   @Override

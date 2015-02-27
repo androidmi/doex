@@ -3,7 +3,7 @@ buildscript {
 		mavenCentral()
 	}
 	dependencies {
-        classpath 'com.android.tools.build:gradle:0.14.2'
+        classpath 'com.android.tools.build:gradle:1.0.0'
 	}
 }
 
@@ -13,9 +13,13 @@ dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 android {
-    compileSdkVersion 21
+    compileSdkVersion 19
     buildToolsVersion "21.1.1"
 
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 14
+    }
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -42,24 +46,5 @@ android {
         release.setRoot('build-types/release')
     }
 
-    signingConfigs {
-        release {
-            storeFile file("tapasdebug.keystore")
-            storePassword "android"
-            keyAlias "optimizer.debug"
-            keyPassword "android"
-        }
-    }
-    applicationVariants.all { variant ->
-        variant.processResources.manifestFile = file('AndroidManifest.xml')
-        variant.processManifest.enabled=false
 
-//        if (variant.name == "release") {
-//            variant.outputFile = file("$project.buildDir/outputs/deploy/DXOptimizer-${variant.name}.apk")
-//        }
-    }
-
-    dexOptions {
-        javaMaxHeapSize "2g"
-    }
 }

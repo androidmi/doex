@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.doex.demo.skin.SkinActivity$PlaceholderFragment">
+
+    <Button
+        android:id="@+id/btn"
+        android:text="this is btn"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bkg"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="20dp"
+        android:background="@color/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is a demo"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"/>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jr_icon"/>
+
+    <Button
+        android:id="@+id/changeBtn"
+        android:text="change skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
